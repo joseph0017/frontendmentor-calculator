@@ -60,6 +60,7 @@ button {
   font-family: 'League Spartan';
   font-weight: 700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .other-buttons {
@@ -87,4 +88,20 @@ button {
   background-color: hsl(6, 63%, 50%);
   color: white;
   box-shadow: 0px 2px hsl(6, 70%, 34%);
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    margin-left: 18px;
+  }
+
+  .display{
+    max-width: 315px;
+  }
+  .calc-buttons {
+    max-width: 300px;
+  }
+  .other-buttons {
+    max-width: 300px;
+  }
 }
